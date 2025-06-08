@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "N/A",
-		"sources": "TBD"
+		"sources": "https://github.com/RedCerise/eclectic-1.21"
 	},
 	"license": "GNU GPLv3",
 	"icon": "assets/eclectic/icon.png",

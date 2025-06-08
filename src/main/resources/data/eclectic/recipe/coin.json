@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eclectic:coin_block"
+    }
+  ],
+  "result": {
+    "id": "eclectic:coin",
+    "count": 5
+  }
+}

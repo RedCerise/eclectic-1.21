@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    "XXX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "eclectic:coin"
+    }
+  },
+  "result": {
+    "id": "eclectic:coin_block",
+    "count": 1
+  },
+  "show_notification": true
+}

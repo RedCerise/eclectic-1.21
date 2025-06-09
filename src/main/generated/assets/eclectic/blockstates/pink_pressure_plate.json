@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "eclectic:block/pink_pressure_plate"
+    },
+    "powered=true": {
+      "model": "eclectic:block/pink_pressure_plate_down"
+    }
+  }
+}

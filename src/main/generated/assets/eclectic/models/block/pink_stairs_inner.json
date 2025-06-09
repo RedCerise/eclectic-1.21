@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "eclectic:block/pink_block",
+    "side": "eclectic:block/pink_block",
+    "top": "eclectic:block/pink_block"
+  }
+}

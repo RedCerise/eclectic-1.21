@@ -24,6 +24,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BOOST_BLOCK);
                         entries.add(ModItems.TEAR);
                         entries.add(ModItems.JUNK);
+
+                        entries.add(ModBlocks.PINK_DOOR);
+                        entries.add(ModBlocks.PINK_STAIRS);
+                        entries.add(ModBlocks.PINK_FENCE);
+                        entries.add(ModBlocks.PINK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PINK_WALL);
+                        entries.add(ModBlocks.PINK_BUTTON);
+                        entries.add(ModBlocks.PINK_FENCE_GATE);
+                        entries.add(ModBlocks.PINK_SLAB);
+                        entries.add(ModItems.MUSH_SCYTHE);
+
                     }).build());
 
     public static void registerItemGroups (){

@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
@@ -27,11 +28,20 @@ public class BoostBlock extends Block {
     }
 
     @Override
+    public void onLandedUpon(World world, BlockState state, BlockPos pos, Entity entity, float fallDistance) {
+        if (entity.bypassesLandingEffects()) {
+            super.onLandedUpon(world, state, pos, entity, fallDistance);
+        } else {
+            entity.handleFallDamage(fallDistance, 0.0F, world.getDamageSources().fall());
+        }
+    }
+
+    @Override
     public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
         if(Screen.hasShiftDown()){
-            tooltip.add(Text.of("This block bounces the player when stepped on"));
+            tooltip.add(Text.of("§8This block bounces the player when stepped on§r"));
         } else {
-            tooltip.add(Text.of("Press SHIFT for more info"));
+            tooltip.add(Text.of("§8§oPress SHIFT for more info§r"));
         }
         super.appendTooltip(stack, context, tooltip, options);
     }

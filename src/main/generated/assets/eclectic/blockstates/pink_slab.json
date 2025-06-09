@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eclectic:block/pink_slab"
+    },
+    "type=double": {
+      "model": "eclectic:block/pink_block"
+    },
+    "type=top": {
+      "model": "eclectic:block/pink_slab_top"
+    }
+  }
+}

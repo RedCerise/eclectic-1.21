@@ -1,0 +1,6 @@
+// 1.21	2025-06-09T11:49:03.7293483	Eclectic/Tags for minecraft:block
+25e7fdf8321662f4576711bbe513791a16e1b45f data\minecraft\tags\block\fence_gates.json
+bfbc6209383b13e475bba26780d45d485f23a3f3 data\minecraft\tags\block\walls.json
+8e6a8afee69aad05da5194cf286bbb6d33d1eca5 data\minecraft\tags\block\needs_iron_tool.json
+55ef2956648bded69c8e9d9f9c2b8357a28772e9 data\minecraft\tags\block\fences.json
+8e6a8afee69aad05da5194cf286bbb6d33d1eca5 data\minecraft\tags\block\mineable\pickaxe.json

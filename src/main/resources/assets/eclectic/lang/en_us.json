@@ -7,6 +7,19 @@
   "item.eclectic.eye": "Eye of Insanity",
   "block.eclectic.boost_block": "Bounce Pad",
   "item.eclectic.tear": "Tear of Heaven",
-  "item.eclectic.junk": "Pile of Junk"
+  "item.eclectic.junk": "Pile of Junk",
+
+  "item.eclectic.mush_scythe": "Mushroom Scythe",
+
+  "block.eclectic.pink_stairs": "Pink Stairs",
+  "block.eclectic.pink_slab": "Pink Slab",
+  "block.eclectic.pink_door": "Pink Door",
+  "block.eclectic.pink_trapdoor": "Pink Trapdoor",
+  "block.eclectic.pink_wall": "Pink Wall",
+  "block.eclectic.pink_button": "Pink Button",
+  "block.eclectic.pink_pressure_plate": "Pink Pressure Plate",
+  "block.eclectic.pink_fence": "Pink Fence",
+  "block.eclectic.pink_fence_gate": "Pink Fence Gate"
+
 
 }
